@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	background: url(../image/homepage/IndexBodyBg.jpg) repeat-x #EBEFF5;
+	font-size: 12px;
+	font-family: Verdana, Simsun;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color: #095C83;
+}
+
+a:visited {
+	color: #095C83;
+}
+
+a:hover {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+
+#Wrapper {
+	background: url(../image/homepage/IndexTopBg.jpg) no-repeat top center;
+}
+
+#Logo {
+	height: 64px;
+	width: 347px;
+	margin-top: 30px;
+}
+
+#Main {
+	position: relative;
+	width:700px;
+	background: url(../image/homepage/IndexMainBg.jpg) no-repeat;
+	font-size: 12px;
+}
+
+#MainForget {
+	position: relative;
+	width:780px;
+	background: url(../image/homepage/IndexMainBg.jpg) no-repeat;
+	font-size: 12px;
+}
+
+#Login {
+    float:left;
+    margin-left:10px;
+	width: 178px;
+	height: 220px;
+	background: url(../image/homepage/LoginBg.jpg) no-repeat;
+	padding: 46px 0 0 10px;
+}
+
+#Forget {
+    float:left;
+    margin-left:10px;
+	width: 178px;
+	height: 220px;
+	background: url(../image/homepage/LoginBg.jpg) no-repeat;
+	padding: 46px 0 0 10px;
+}
+
+#Forget .InputBox {
+	width: 178px;
+	height: 22px;
+	border: 1px solid #0F599E;
+	font-size: 12px;
+	padding: 0 0 0 2px;
+	line-height: 22px;
+}
+
+#Login label {
+	width: 30px;
+	height: 32px;
+	font-size: 12px;
+	padding: 0 0 0 2px;
+	line-height: 30px;
+}
+
+#Login .InputBox {
+	width: 116px;
+	height: 22px;
+	border: 1px solid #0F599E;
+	font-size: 12px;
+	padding: 0 0 0 2px;
+	line-height: 22px;
+}
+
+#Login .Btn {
+	width: 72px;
+	height: 27px;
+	background: url(../image/homepage/Btn.gif) no-repeat;
+	border: none;
+	cursor: hand;
+	margin-top: 5px;
+	
+}
+
+#News {
+    float:right;
+
+	width: 500px;
+	height: 246px;
+	background: url(../image/homepage/NewsBg.jpg) no-repeat;
+}
+
+#News ul {
+	width: 350px;
+	line-height: 20px;
+	margin: 50px 0 0 30px;
+	list-style:none;
+}
+
+#News li {
+	background: url(../image/homepage/NewsIcon.gif) no-repeat 0 10px;
+	padding-left: 15px;
+}
+
+#News ul span {
+	float: right;
+}
+
+#News .More {
+	position: absolute;
+	top: 25px;
+	right: 30px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Footer {
+	font-size: 12px;
+	color: #A9A9A9;
+	text-align: center;
+}

@@ -1,0 +1,249 @@
+body {
+	margin: 0;
+	background: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Tahoma';
+
+}
+ 
+a {
+	text-decoration:none;
+}
+
+a:link {
+	color: #095C83;
+}
+
+a:visited {
+	color: #095C83;
+}
+
+a:hover {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border :none;
+}
+
+
+#Header {
+	position: relative;
+	height: 85px;
+	width: 100%;
+	background: url(../image/HeaderBg.jpg) repeat-x;
+}
+
+#logo {
+	position: absolute;
+	left: 8px;
+	height: 48px;
+	width: 322px;
+}
+
+#TopLink {
+	position: absolute;
+	top: 8px;
+	right: 20px;
+	font-weight: bold;
+}
+
+#TopLink img {
+	margin-bottom: -3px;
+}
+
+#TopLink a:link {
+	color: #4A8C35;
+}
+
+#TopLink a:visited {
+	color: #4A8C35;
+}
+
+#TopLink a:hover {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+#TopLink a:active {
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+#UserInfo {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	color: #154AA1;
+}
+
+#Nav {
+	position: absolute;
+	top: 48px;
+	height: 37px;
+}
+
+#Nav ul {
+	margin-left: 10px;
+}
+
+#Nav li {
+	float: left;
+	width: 100px;
+	height: 37px;
+	line-height: 37px;
+	margin: 0;
+	text-align: center;
+	background: url(../image/NavBg.jpg);
+}
+
+#Nav a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#Nav a:link {
+	color: #1E578F;
+}
+
+#Nav a:visited {
+	color:#1E578F;
+}
+
+#Nav a:hover {
+	color: #FFFFFF; 
+	background: url(../image/NavBg_H.jpg) no-repeat;
+}
+
+#Nav a:active {
+	color: #FFFFFF; 
+	background: url(../image/NavBg_H.jpg) no-repeat;
+}
+
+#Nav .Cur {
+	width: 111px;
+	background: url(../image/NavBg_H.jpg);
+}
+
+#Nav .Cur a:link {
+	color: #FFFFFF;
+}
+
+#Nav .Cur a:visited {
+	color: #FFFFFF;
+}
+
+#Function {
+	margin: 50px 0 200px 50px;
+}
+
+#Function ul {}
+
+#Function li {
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+
+#Function li img {
+	margin-bottom: 10px;
+}
+
+.Line {
+	width: 1000px;
+	height: 10px;
+	background: url(../image/Line.gif) no-repeat;
+}
+
+.AchievementTable{
+	margin: 50px 200px 200px 100px
+}
+
+.VirtualClass{
+	margin: 50px 0 200px 50px;
+}
+
+h2 {
+	color: #4A952D;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 32px;
+}
+
+h4 {
+	color: #4A952D;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 24px;
+}
+
+h5 {
+	color: #FF9B19;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 24px;
+}
+
+ul.ClassList {
+	margin-left: -20px;
+	line-height: 24px;
+	clear: both;
+}
+
+ul.ClassList li {
+	float: left;
+	margin-left:32px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 300px;
+	line-height:40px;
+	background:#ebf3f6;
+	text-align:center;
+	border: 1px dashed #C5DEEA;
+}
+
+table.Achievement {
+	border-collapse: collapse;
+	border: solid 1px #C5DEEA;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+table.Achievement .TdHead {
+	width: 90px;
+	padding-left: 10px;
+	background-color: #ebf3f6;
+	border: solid 1px #C5DEEA;
+	white-space: nowrap;
+}
+
+table.Achievement .TdContent {
+	white-space: nowrap;
+	padding-left: 10px;
+	width: 35%;
+	border: solid 1px #C5DEEA;
+	white-space: normal;
+	background-color: transparent;
+}
+
+.HighLightText{
+	color: red;
+}

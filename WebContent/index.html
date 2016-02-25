@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>南京大学教务系统</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">	
+	
+	<script type="text/javascript">
+	function CheckForm()
+	{
+		var ssValidateCode = "null";
+		
+		var oName = document.getElementById("username");
+		if(oName.value.length == 0)
+		{
+			alert("请输入用户名称!");
+			oName.focus();
+			return false;
+		}
+		
+		var oPassword = document.getElementById("password");
+		if(oPassword.value == "")
+		{
+			alert("请输入用户密码!");
+			oPassword.focus();
+			return false;
+		}
+		return true;
+	}
+	
+	function ForgetPassword()
+	{
+		alert("你倒是说说，密码这么重要的东西，你咋能忘呢？\n\n诶，没办法，去找管理员君吧。");
+		return;
+	}
+	</script>
+</head>
+<body class="templatemo-bg-gray">
+	<div class="container">
+		<div class="col-md-12">
+			<h1 class="margin-bottom-15">南京大学教务系统</h1>
+			<form class="form-horizontal templatemo-container templatemo-login-form-1 margin-bottom-30" role="form" method="post" action="login_check.jsp" onsubmit="JavaScript: return CheckForm();">				
+		        <div class="form-group">
+		          <div class="col-xs-12">		            
+		            <div class="control-wrapper">
+		            	<label for="username" class="control-label fa-label"><i class="fa fa-user fa-medium"></i></label>
+		            	<input type="text" class="form-control" id="username" name="UserName" placeholder="用户名">
+		            </div>		            	            
+		          </div>              
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		          	<div class="control-wrapper">
+		            	<label for="password" class="control-label fa-label"><i class="fa fa-lock fa-medium"></i></label>
+		            	<input type="password" class="form-control" id="password" name="Password" placeholder="密码">
+		            </div>
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+	             	<div class="checkbox control-wrapper">
+	                	<label>
+	                  		<input type="checkbox"> 记住我
+                		</label>
+	              	</div>
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		          	<div class="control-wrapper">
+		          		<input type="submit" value="登录" class="btn btn-info">
+		          		<input type="reset" value="重置" class="btn btn-danger">
+		          		<a href="JavaScript: ForgetPassword();" class="text-right pull-right">忘记密码？</a>
+		          	</div>
+		          </div>
+		        </div>
+		        <hr>
+				<div>
+				<ul>
+					<li><p>
+						<strong>教师登录：<br>
+						</strong>用户名为工资号，初始密码为工资号，请及时更改密码。
+					</p></li>
+					<li><p>
+						<strong>学生登陆：<br>
+						</strong>用户名为学号，初始密码为学号，请及时更改密码。
+					</p></li>
+					<li><p>
+						<strong>教务员登录： </strong><br> 用户名为工号，初始密码为工号。
+					</p></li>
+					<li><p>
+						<strong>管理员登录： </strong><br> 用户名为工号，初始密码为工号。
+					</p></li>
+				</ul>
+				</div>
+			</form>
+		      <div class="text-center">
+		      	<a href="about.html" class="templatemo-create-new">关于我们 <i class="fa fa-arrow-circle-o-right"></i></a>	
+		      </div>
+		</div>
+	</div>
+	
+</body>
+</html>
